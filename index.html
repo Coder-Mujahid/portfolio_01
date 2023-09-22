@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coder-Mujahid portfolio</title>
+    <link rel="shortcut icon" href="img/visual-basic_5968389.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.7/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg-white">
+    <!-- header part -->
+    <header class="bg-slate-100 border-b-2 border-gray-800 w-full">
+        <div class=" md:w-10/12 mx-auto flex justify-between items-center gap-4 py-5 px-5 ">
+            <img class="w-48" src="img/Black & White Minimalist Business Logo.png" alt="img">
+
+            <i id="click" class='bx bx-menu text-5xl font-semibold block md:hidden'></i>
+
+            <div class=" hidden md:block">
+                <ul class="md:flex gap-2 flex-wrap items-center justify-end c p-5 mx-auto bg-slate-100 " >
+                    <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">Home</a></li>
+                    <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">About</a></li>
+                    <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">skill</a></li>
+                    <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">project</a></li>
+                    <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">blog</a></li>
+                    <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">Reviews</a></li>
+                    <li class=" bg-slate-300 px-2 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">contect</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header part dropdown content -->
+    <div id="drop" class="hidden items-end">
+        <ul class="md:flex gap-2 flex-col items-center p-5 mx-auto bg-slate-100 " >
+            <li class="my-2 bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">About me</a></li>
+            <li class="my-2 bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">skill</a></li>
+            <li class="my-2 bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">project</a></li>
+            <li class="my-2 bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">blog</a></li>
+            <li class="my-2 bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">Reviews</a></li>
+            <li class="my-2 bg-slate-300 px-2 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">contect</a></li>
+            
+        </ul>
+    </div>
+
+    <!-- headre part js -->
+    <script>
+        const data=document.getElementById('click')
+        const data1=document.getElementById('drop')
+        console.log(data);
+        data.onclick=call;
+
+        function call(){
+            data1.classList.toggle('hidden')
+        }
+    </script>
+
+    
+
+    
+</body>
+</html>
