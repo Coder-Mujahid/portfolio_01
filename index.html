@@ -11,16 +11,16 @@
 </head>
 <body class="bg-white">
     <!-- header part -->
-    <header class="bg-slate-100 border-b-2 border-gray-800 w-full">
-        <div class=" md:w-10/12 mx-auto flex justify-between items-center gap-4 py-5 px-5 ">
-            <img class="w-48" src="img/Black___White_Minimalist_Business_Logo-removebg-preview.png" alt="img">
+    <header class="bg-slate-100 border-b-2 border-gray-800">
+        <div class=" md:w-11/12 mx-auto flex justify-between items-center gap-4 py-5 px-5 ">
+            <img class=" w-20 md:w-48" src="img/Black___White_Minimalist_Business_Logo-removebg-preview.png" alt="img">
 
             <i id="click" class='bx bx-menu text-5xl font-semibold block md:hidden'></i>
 
             <div class=" hidden md:block">
                 <ul class="md:flex gap-2 flex-wrap items-center justify-end c p-5 mx-auto bg-slate-100 " >
-                    <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">Home</a></li>
-                    <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">About</a></li>
+                    <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#hero">Home</a></li>
+                    <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#about">About</a></li>
                     <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">skill</a></li>
                     <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">project</a></li>
                     <li class=" bg-slate-300 px-6 py-2 rounded transition duration-350 ease-outhover:bg-[#7fd5fd] hover:bg-[#89d9fd] text-center"><a class="capitalize text-lg font-semibold" href="#">blog</a></li>
@@ -48,7 +48,6 @@
     <script>
         const data=document.getElementById('click')
         const data1=document.getElementById('drop')
-        console.log(data);
         data.onclick=call;
 
         function call(){
@@ -58,25 +57,57 @@
 
 
     <!-- hero section -->
-    <section>
-        <div class="flex w-11/12 mx-auto justify-between items-center p-5">
-            <div>
-                <p class="text-lg text-blanvk pb-2">Hello, Welcome</p>
-                <h2 class="text-4xl capitalize text bkolk ms
-                ">md.my nqme ix</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel aliquam, nemo illum nobis doloribus modi aliquid nihil accusantium eos.</p>
-                <button class=t"buttun</button>
+    <section id="hero" class="flex items-center justify-center my-20">
+        <div class="md:flex w-11/12 gap-20 mx-auto justify-between items-center p-5">
+            <div class="mb-10">
+                <p class="text-lg pb-2 font-medium text-black">Hello, Welcome</p>
+                <h2 class="text-4xl font-bold capitalize pb-2 text-lime-500">md mujahid islam</h2>
+                <p class="pb-2 text-sm font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel aliquam, nemo illum nobis doloribus modi aliquid nihil accusantium eos.</p>
+                <ul class="flex gap-4 pb-5">
+                    <li><a href="#"><i class='bx bxl-linkedin-square text-4xl text-blue-700 hover:text-blue-600 '></i></a></li>
+                    <li><a href="#"><i class='bx bxl-instagram-alt text-4xl text-[purple] hover:text-[#e467e4]' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-github text-4xl text-slate-700 hover:text-slate-600' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-facebook-square text-4xl text-blue-600 hover:text-blue-500' ></i></i></a></li>
+                </ul>
+                <button class="btn-ghost w-28 bg-slate-400 pb-2 text-base font-semibold text-black py-2 rounded duration-75 hover:bg-slate-300">contact</button>
             </div>
 
-            <div berder
+            <div>
+                <img src="img/Untitled_design__6_-removebg-preview.png" alt="">
             </div>
         </div>
     </section>
 
-    
-    
-    
+    <!-- about section -->
+    <section id="about" class="my-20">
+        <div class="md:w-6/12 mx-auto text-center my-5">
+            <h2 class="text-4xl font-bold capitalize pb-2 text-lime-500">about me</h2>
+            <p class="pb-2 text-sm font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eaque id alias nemo in quod impedit vitae, facere, quis assumenda saepe consequuntur quam architecto eveniet molestias beatae libero? Atque, excepturi?</p>
+        </div>
+        <div class="md:flex w-11/12 gap-14 mx-auto justify-between items-center p-5">
+                <div class=" md:w-full shadow-lg shadow-black rounded mb-6">
+                    <img class="mx-auto " src="img/about.png" alt="img">
+                </div>
 
+            <div class="mb-10">
+                <p class="text-lg pb-2 font-medium text-lime-500">Hello, Welcome</p>
+                <p class="pb-2 md:pr-10 text-sm font-semibold">Hello there! I'm md mujahid islam, a passionate frontend developer with a love for creating stunning and user-friendly web experiences. I believe in the power of well-crafted code to transform ideas into captivating digital realities.
+
+                What I Bring to the Table
+                    
+                🎨 Design Sensibility: With a background in design, I have a knack for turning creative concepts into visually appealing interfaces. I understand the importance of aesthetics and functionality working hand in hand.</p>
+                <ul class="md:flex flex-col gap-2 pb-5">
+                    <li><a class="flex items-center font-semibold" target="_blank" href="https://www.whatsapp.com/"><i class='bx bxl-whatsapp text-4xl text-blue-700 hover:text-blue-600 '></i>01737705511</a></li>
+                    <li><a class="flex items-center font-semibold" target="_blank" href="https://mail.google.com/"><i class='bx bxs-envelope text-4xl text-blue-700 hover:text-blue-600 '></i>mujahidislam400301@gmail.com</a></li>
+                    <li><a class="flex items-center font-semibold" target="_blank" href="https://maps.app.goo.gl/mdCtkKdepKoPATWS7"><i class='bx bxs-location-plus text-4xl text-blue-700 hover:text-blue-600 '></i>Aftab Nagar, Dacca</a></li>
+                </ul>
+                <button href="file:///C:/Users/Mujahidul%20Islam/Downloads/Documents/Profile.pdf" class="btn-ghost w-40 bg-slate-400 text-base font-semibold capitalize text-black py-2 rounded duration-75 hover:bg-slate-300">download resume</button>
+            </div>
+
+            
+        </div>
+    </section>
+    
     
 </body>
 </html>
