@@ -14,7 +14,7 @@ Welcome to my GitHub profile! I'm a passionate [Frontend/Full Stack] Developer f
 
 ## 📫 Contact
 
-- [LinkedIn]([Link](https://www.linkedin.com/in/mujahid-islam/))
+- [LinkedIn](https://www.linkedin.com/in/mujahid-islam/)
 - [Email](mujahidislam400301@gmail.com)
 
 Feel free to reach out if you have any questions, collaboration ideas, or just want to connect!
