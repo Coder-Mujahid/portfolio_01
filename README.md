@@ -5,12 +5,12 @@ Welcome to my GitHub profile! I'm a passionate [Frontend/Full Stack] Developer f
 ## 🔧 Technologies & Tools
 
 - JavaScript React.js)
-- HTML5, CSS3 (Sass/SCSS)
+- HTML5, CSS3 (Tailwind CSS)
 - Git, GitHub
 
 ## 🌱 I’m currently learning
 
-- [MERN stack web devlopement]
+- Front End web devlopement]
 
 ## 📫 Contact
 
