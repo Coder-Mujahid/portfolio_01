@@ -4,7 +4,7 @@ Welcome to my GitHub profile! I'm a passionate [Frontend/Full Stack] Developer f
 
 ## 🔧 Technologies & Tools
 
-- JavaScript (React, Node.js)
+- JavaScript React.js)
 - HTML5, CSS3 (Sass/SCSS)
 - Git, GitHub
 
